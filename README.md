@@ -22,9 +22,9 @@ Also a new admin user can be created using
 <h2>Usage</h2>
 Go to mysite folder and run
 <pre>python manage.py runserver</pre>
-Then go to the browser and enter the url http://127.0.0.1:8000/
-<br>
-This project includes:
+<p>Then go to the browser and enter the url http://127.0.0.1:8000/<p>
+
+<p>This project includes:</p>
 <ol>
 <li>Register, Login and Logout forms are developed.</li>
 <li>A model is created to display content on the Front-end.</li>
