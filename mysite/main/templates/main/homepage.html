@@ -1,0 +1,19 @@
+{% extends "main/header.html" %}
+{% block content %}
+    
+    <div class="row">
+        {% for tut in tutorials %}
+            <div class="col s12 m6">
+            <div class="card cyan lighten-1 hoverable">
+                <div class="card-content ">
+                <span class="card-title">{{tut.tutorial_title}}</span>
+                <p style="font-size:70%">{{tut.tutorial_content|safe}}</p>
+                </div>
+                <div class="card-action"> 
+                <a href="#" class="waves-effect waves-light btn">Visit</a>
+                </div>
+            </div>
+            </div>
+        {% endfor %}  
+      </div>
+      {% endblock %}
