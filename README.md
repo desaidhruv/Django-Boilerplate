@@ -23,7 +23,7 @@ Also a new admin user can be created using
 Go to mysite folder and run
 <pre>python manage.py runserver</pre>
 Then go to the browser and enter the url http://127.0.0.1:8000/
-
+<br>
 This project includes:
 <ol>
 <li>Register, Login and Logout forms are developed.</li>
