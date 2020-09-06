@@ -2,6 +2,7 @@
 {% block content %}
     
     <div class="row">
+        {% if user.is_authenticated %}
         {% for tut in tutorials %}
             <div class="col s12 m6">
             <div class="card cyan lighten-1 hoverable">
@@ -14,6 +15,9 @@
                 </div>
             </div>
             </div>
-        {% endfor %}  
-      </div>
-      {% endblock %}
+        {% endfor %} 
+        {% else %}
+            <h1>Hey you need to login first.</h1>
+        {% endif %} 
+    </div>
+{% endblock %}
