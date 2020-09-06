@@ -4,7 +4,7 @@
 ![django](https://user-images.githubusercontent.com/40533390/85207841-5b104980-b349-11ea-9004-76bbbcc68f2a.png)
 
 <h2>Getting Started</h2>
-Steps:
+<p>Steps:</p>
 <ol>
 <li>Clone/pull/download this repository</li>
 <li>Create a virtualenv with <code>virtualenv env</code> and install dependencies</li>
@@ -16,6 +16,7 @@ Steps:
 <pre>pip install django</pre>
 <pre>pip install django-tinymce4-lite</pre>
 <h2>Login</h2>
+<<<<<<< HEAD
 You can access the django admin page at http://127.0.0.1:8000/admin and login with username 'desaidhruv' and the password as 12345.
 Also a new admin user can be created using
 <pre>python manage.py createsuperuser</pre>
@@ -25,6 +26,17 @@ Go to mysite folder and run
 Then go to the browser and enter the url http://127.0.0.1:8000/
 
 This project includes:
+=======
+<p>You can access the django admin page at http://127.0.0.1:8000/admin and login with username 'desaidhruv' and the password as 12345.
+Also a new admin user can be created using</p>
+<pre>python manage.py createsuperuser</pre>
+<h2>Usage</h2>
+<p>Go to mysite folder and run</p>
+<pre>python manage.py runserver</pre>
+<p>Then go to the browser and enter the url http://127.0.0.1:8000/<p>
+
+<p>This project includes:</p>
+>>>>>>> ceb7f3f4b98c1eab33d3eed023aab0e6cd5dc9fd
 <ol>
 <li>Register, Login and Logout forms are developed.</li>
 <li>A model is created to display content on the Front-end.</li>
