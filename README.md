@@ -16,7 +16,6 @@
 <pre>pip install django</pre>
 <pre>pip install django-tinymce4-lite</pre>
 <h2>Login</h2>
-<<<<<<< HEAD
 You can access the django admin page at http://127.0.0.1:8000/admin and login with username 'desaidhruv' and the password as 12345.
 Also a new admin user can be created using
 <pre>python manage.py createsuperuser</pre>
