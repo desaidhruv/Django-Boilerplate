@@ -24,10 +24,7 @@ Go to mysite folder and run
 <pre>python manage.py runserver</pre>
 Then go to the browser and enter the url http://127.0.0.1:8000/
 
-This project includes:
-=======
-<p>You can access the django admin page at http://127.0.0.1:8000/admin and login with username 'desaidhruv' and the password as 12345.
-Also a new admin user can be created using</p>
+
 <pre>python manage.py createsuperuser</pre>
 <h2>Usage</h2>
 <p>Go to mysite folder and run</p>
@@ -35,7 +32,7 @@ Also a new admin user can be created using</p>
 <p>Then go to the browser and enter the url http://127.0.0.1:8000/<p>
 
 <p>This project includes:</p>
->>>>>>> ceb7f3f4b98c1eab33d3eed023aab0e6cd5dc9fd
+
 <ol>
 <li>Register, Login and Logout forms are developed.</li>
 <li>A model is created to display content on the Front-end.</li>
